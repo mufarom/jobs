@@ -1,0 +1,1 @@
+<p>Thank you for submitting your query. We will have one of our staff reach out to you soon!</p>

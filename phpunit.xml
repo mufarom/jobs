@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<phpunit>
+    <testsuites>
+        <testsuite name="tests">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <file>Job/Controllers/User.php</file>
+            <file>Job/Controllers/Job.php</file>
+            <file>Job/Controllers/JobMain.php</file>
+            <file>Job/Controllers/Enquiry.php</file>
+            <file>Job/Controllers/Category.php</file>
+            <file>Job/Controllers/Admin.php</file>
+        </whitelist>
+    </filter>
+</phpunit>
